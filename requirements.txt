@@ -1,0 +1,16 @@
+# 依赖清单
+# 安装： pip install -r requirements.txt
+
+# --- 核心：HTTP 抓取与 HTML 解析 ---
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# --- 图表绘制 ---
+matplotlib>=3.8
+
+# --- Excel 导出（--export-xlsx 时需要）---
+openpyxl>=3.1
+
+# --- 截图裁边（tools/screenshot.py 需要）---
+Pillow>=10.0
